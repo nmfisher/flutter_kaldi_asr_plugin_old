@@ -1,0 +1,6 @@
+framework module flutter_kaldi_framework {
+  umbrella header "flutter_kaldi_framework.h"
+
+  export *
+  module * { export * }
+}

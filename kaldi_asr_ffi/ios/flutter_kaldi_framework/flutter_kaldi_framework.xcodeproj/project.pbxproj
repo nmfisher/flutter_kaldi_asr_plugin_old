@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E03D7F253547FC00479A91 /* flutter_kaldi_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03D75253547FC00479A91 /* flutter_kaldi_framework.framework */; };
+		84E03D84253547FC00479A91 /* flutter_kaldi_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E03D83253547FC00479A91 /* flutter_kaldi_frameworkTests.swift */; };
+		84E03D86253547FC00479A91 /* flutter_kaldi_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E03D78253547FC00479A91 /* flutter_kaldi_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E03DF725354AAD00479A91 /* libkaldi-cudamatrix.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DDF25354AAC00479A91 /* libkaldi-cudamatrix.dylib */; platformFilter = ios; };
+		84E03DF825354AAD00479A91 /* libkaldi-cudamatrix.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DDF25354AAC00479A91 /* libkaldi-cudamatrix.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03DF925354AAD00479A91 /* libkaldi-nnet2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE025354AAC00479A91 /* libkaldi-nnet2.dylib */; platformFilter = ios; };
+		84E03DFA25354AAD00479A91 /* libkaldi-nnet2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE025354AAC00479A91 /* libkaldi-nnet2.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03DFB25354AAD00479A91 /* libkaldi-gmm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE125354AAC00479A91 /* libkaldi-gmm.dylib */; platformFilter = ios; };
+		84E03DFC25354AAD00479A91 /* libkaldi-gmm.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE125354AAC00479A91 /* libkaldi-gmm.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03DFD25354AAD00479A91 /* libkaldi-nnet3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE225354AAC00479A91 /* libkaldi-nnet3.dylib */; platformFilter = ios; };
+		84E03DFE25354AAD00479A91 /* libkaldi-nnet3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE225354AAC00479A91 /* libkaldi-nnet3.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03DFF25354AAD00479A91 /* libkaldi-transform.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE325354AAC00479A91 /* libkaldi-transform.dylib */; platformFilter = ios; };
+		84E03E0025354AAD00479A91 /* libkaldi-transform.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE325354AAC00479A91 /* libkaldi-transform.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0125354AAD00479A91 /* libkaldi-util.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE425354AAC00479A91 /* libkaldi-util.dylib */; platformFilter = ios; };
+		84E03E0225354AAD00479A91 /* libkaldi-util.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE425354AAC00479A91 /* libkaldi-util.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0325354AAD00479A91 /* libkaldi-tree.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE525354AAC00479A91 /* libkaldi-tree.dylib */; platformFilter = ios; };
+		84E03E0425354AAD00479A91 /* libkaldi-tree.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE525354AAC00479A91 /* libkaldi-tree.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0525354AAD00479A91 /* libkaldi-hmm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE625354AAC00479A91 /* libkaldi-hmm.dylib */; platformFilter = ios; };
+		84E03E0625354AAD00479A91 /* libkaldi-hmm.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE625354AAC00479A91 /* libkaldi-hmm.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0725354AAD00479A91 /* libfst.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE725354AAC00479A91 /* libfst.dylib */; platformFilter = ios; };
+		84E03E0825354AAD00479A91 /* libfst.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE725354AAC00479A91 /* libfst.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0925354AAD00479A91 /* libkaldi-matrix.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE825354AAC00479A91 /* libkaldi-matrix.dylib */; platformFilter = ios; };
+		84E03E0A25354AAD00479A91 /* libkaldi-matrix.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE825354AAC00479A91 /* libkaldi-matrix.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0B25354AAD00479A91 /* libkaldi-decoder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DE925354AAC00479A91 /* libkaldi-decoder.dylib */; platformFilter = ios; };
+		84E03E0C25354AAD00479A91 /* libkaldi-decoder.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DE925354AAC00479A91 /* libkaldi-decoder.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0D25354AAE00479A91 /* libasrbridge.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DEA25354AAC00479A91 /* libasrbridge.dylib */; };
+		84E03E0E25354AAE00479A91 /* libasrbridge.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DEA25354AAC00479A91 /* libasrbridge.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E0F25354AAE00479A91 /* libkaldi-rnnlm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DEB25354AAC00479A91 /* libkaldi-rnnlm.dylib */; platformFilter = ios; };
+		84E03E1025354AAE00479A91 /* libkaldi-rnnlm.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DEB25354AAC00479A91 /* libkaldi-rnnlm.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1125354AAE00479A91 /* libkaldi-nnet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DEC25354AAC00479A91 /* libkaldi-nnet.dylib */; platformFilter = ios; };
+		84E03E1225354AAE00479A91 /* libkaldi-nnet.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DEC25354AAC00479A91 /* libkaldi-nnet.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1325354AAE00479A91 /* libkaldi-online2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DED25354AAC00479A91 /* libkaldi-online2.dylib */; platformFilter = ios; };
+		84E03E1425354AAE00479A91 /* libkaldi-online2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DED25354AAC00479A91 /* libkaldi-online2.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1525354AAE00479A91 /* libkaldi-ivector.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DEE25354AAC00479A91 /* libkaldi-ivector.dylib */; platformFilter = ios; };
+		84E03E1625354AAE00479A91 /* libkaldi-ivector.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DEE25354AAC00479A91 /* libkaldi-ivector.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1725354AAE00479A91 /* libkaldi-fstext.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DEF25354AAC00479A91 /* libkaldi-fstext.dylib */; platformFilter = ios; };
+		84E03E1825354AAE00479A91 /* libkaldi-fstext.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DEF25354AAC00479A91 /* libkaldi-fstext.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1925354AAE00479A91 /* libkaldi-sgmm2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF025354AAD00479A91 /* libkaldi-sgmm2.dylib */; platformFilter = ios; };
+		84E03E1A25354AAE00479A91 /* libkaldi-sgmm2.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF025354AAD00479A91 /* libkaldi-sgmm2.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1B25354AAE00479A91 /* libkaldi-feat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF125354AAD00479A91 /* libkaldi-feat.dylib */; platformFilter = ios; };
+		84E03E1C25354AAE00479A91 /* libkaldi-feat.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF125354AAD00479A91 /* libkaldi-feat.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1D25354AAE00479A91 /* libkaldi-lat.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF225354AAD00479A91 /* libkaldi-lat.dylib */; platformFilter = ios; };
+		84E03E1E25354AAE00479A91 /* libkaldi-lat.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF225354AAD00479A91 /* libkaldi-lat.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E1F25354AAE00479A91 /* libkaldi-chain.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF325354AAD00479A91 /* libkaldi-chain.dylib */; platformFilter = ios; };
+		84E03E2025354AAE00479A91 /* libkaldi-chain.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF325354AAD00479A91 /* libkaldi-chain.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E2125354AAE00479A91 /* libkaldi-base.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF425354AAD00479A91 /* libkaldi-base.dylib */; platformFilter = ios; };
+		84E03E2225354AAE00479A91 /* libkaldi-base.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF425354AAD00479A91 /* libkaldi-base.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E2325354AAE00479A91 /* libkaldi-kws.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF525354AAD00479A91 /* libkaldi-kws.dylib */; platformFilter = ios; };
+		84E03E2425354AAE00479A91 /* libkaldi-kws.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF525354AAD00479A91 /* libkaldi-kws.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		84E03E2525354AAE00479A91 /* libkaldi-lm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E03DF625354AAD00479A91 /* libkaldi-lm.dylib */; platformFilter = ios; };
+		84E03E2625354AAE00479A91 /* libkaldi-lm.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 84E03DF625354AAD00479A91 /* libkaldi-lm.dylib */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E03D80253547FC00479A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E03D6C253547FC00479A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E03D74253547FC00479A91;
+			remoteInfo = flutter_kaldi_framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84E03E2725354AAF00479A91 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84E03DFA25354AAD00479A91 /* libkaldi-nnet2.dylib in Embed Libraries */,
+				84E03E1425354AAE00479A91 /* libkaldi-online2.dylib in Embed Libraries */,
+				84E03DFC25354AAD00479A91 /* libkaldi-gmm.dylib in Embed Libraries */,
+				84E03E2225354AAE00479A91 /* libkaldi-base.dylib in Embed Libraries */,
+				84E03E0C25354AAD00479A91 /* libkaldi-decoder.dylib in Embed Libraries */,
+				84E03E2625354AAE00479A91 /* libkaldi-lm.dylib in Embed Libraries */,
+				84E03E0425354AAD00479A91 /* libkaldi-tree.dylib in Embed Libraries */,
+				84E03E1C25354AAE00479A91 /* libkaldi-feat.dylib in Embed Libraries */,
+				84E03E0825354AAD00479A91 /* libfst.dylib in Embed Libraries */,
+				84E03DF825354AAD00479A91 /* libkaldi-cudamatrix.dylib in Embed Libraries */,
+				84E03E0E25354AAE00479A91 /* libasrbridge.dylib in Embed Libraries */,
+				84E03E0025354AAD00479A91 /* libkaldi-transform.dylib in Embed Libraries */,
+				84E03E0225354AAD00479A91 /* libkaldi-util.dylib in Embed Libraries */,
+				84E03E1025354AAE00479A91 /* libkaldi-rnnlm.dylib in Embed Libraries */,
+				84E03DFE25354AAD00479A91 /* libkaldi-nnet3.dylib in Embed Libraries */,
+				84E03E1225354AAE00479A91 /* libkaldi-nnet.dylib in Embed Libraries */,
+				84E03E1E25354AAE00479A91 /* libkaldi-lat.dylib in Embed Libraries */,
+				84E03E1625354AAE00479A91 /* libkaldi-ivector.dylib in Embed Libraries */,
+				84E03E0625354AAD00479A91 /* libkaldi-hmm.dylib in Embed Libraries */,
+				84E03E1825354AAE00479A91 /* libkaldi-fstext.dylib in Embed Libraries */,
+				84E03E2425354AAE00479A91 /* libkaldi-kws.dylib in Embed Libraries */,
+				84E03E0A25354AAD00479A91 /* libkaldi-matrix.dylib in Embed Libraries */,
+				84E03E1A25354AAE00479A91 /* libkaldi-sgmm2.dylib in Embed Libraries */,
+				84E03E2025354AAE00479A91 /* libkaldi-chain.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84E03D75253547FC00479A91 /* flutter_kaldi_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = flutter_kaldi_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E03D78253547FC00479A91 /* flutter_kaldi_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flutter_kaldi_framework.h; sourceTree = "<group>"; };
+		84E03D79253547FC00479A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E03D7E253547FC00479A91 /* flutter_kaldi_frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flutter_kaldi_frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E03D83253547FC00479A91 /* flutter_kaldi_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flutter_kaldi_frameworkTests.swift; sourceTree = "<group>"; };
+		84E03D85253547FC00479A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E03D942535485900479A91 /* libkaldi-tree.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-tree.dylib"; path = "../lib/libkaldi-tree.dylib"; sourceTree = "<group>"; };
+		84E03D952535485900479A91 /* libkaldi-kws.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-kws.dylib"; path = "../lib/libkaldi-kws.dylib"; sourceTree = "<group>"; };
+		84E03D962535485900479A91 /* libfst.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfst.dylib; path = ../lib/libfst.dylib; sourceTree = "<group>"; };
+		84E03D972535485900479A91 /* libkaldi-matrix.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-matrix.dylib"; path = "../lib/libkaldi-matrix.dylib"; sourceTree = "<group>"; };
+		84E03D982535485900479A91 /* libkaldi-transform.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-transform.dylib"; path = "../lib/libkaldi-transform.dylib"; sourceTree = "<group>"; };
+		84E03D992535485900479A91 /* libasrbridge.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libasrbridge.dylib; path = ../lib/libasrbridge.dylib; sourceTree = "<group>"; };
+		84E03D9A2535485900479A91 /* libkaldi-hmm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-hmm.dylib"; path = "../lib/libkaldi-hmm.dylib"; sourceTree = "<group>"; };
+		84E03D9B2535485A00479A91 /* libkaldi-lm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-lm.dylib"; path = "../lib/libkaldi-lm.dylib"; sourceTree = "<group>"; };
+		84E03D9C2535485A00479A91 /* libkaldi-feat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-feat.dylib"; path = "../lib/libkaldi-feat.dylib"; sourceTree = "<group>"; };
+		84E03D9D2535485A00479A91 /* libkaldi-nnet.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-nnet.dylib"; path = "../lib/libkaldi-nnet.dylib"; sourceTree = "<group>"; };
+		84E03D9E2535485A00479A91 /* libkaldi-online2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-online2.dylib"; path = "../lib/libkaldi-online2.dylib"; sourceTree = "<group>"; };
+		84E03D9F2535485A00479A91 /* libkaldi-sgmm2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-sgmm2.dylib"; path = "../lib/libkaldi-sgmm2.dylib"; sourceTree = "<group>"; };
+		84E03DA02535485A00479A91 /* libkaldi-util.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-util.dylib"; path = "../lib/libkaldi-util.dylib"; sourceTree = "<group>"; };
+		84E03DA12535485A00479A91 /* libkaldi-decoder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-decoder.dylib"; path = "../lib/libkaldi-decoder.dylib"; sourceTree = "<group>"; };
+		84E03DA22535485A00479A91 /* libkaldi-fstext.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-fstext.dylib"; path = "../lib/libkaldi-fstext.dylib"; sourceTree = "<group>"; };
+		84E03DA32535485A00479A91 /* libkaldi-ivector.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-ivector.dylib"; path = "../lib/libkaldi-ivector.dylib"; sourceTree = "<group>"; };
+		84E03DA42535485A00479A91 /* libkaldi-base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-base.dylib"; path = "../lib/libkaldi-base.dylib"; sourceTree = "<group>"; };
+		84E03DA52535485A00479A91 /* libkaldi-lat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-lat.dylib"; path = "../lib/libkaldi-lat.dylib"; sourceTree = "<group>"; };
+		84E03DA62535485A00479A91 /* libkaldi-nnet2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-nnet2.dylib"; path = "../lib/libkaldi-nnet2.dylib"; sourceTree = "<group>"; };
+		84E03DA72535485A00479A91 /* libkaldi-nnet3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-nnet3.dylib"; path = "../lib/libkaldi-nnet3.dylib"; sourceTree = "<group>"; };
+		84E03DA82535485A00479A91 /* libkaldi-chain.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-chain.dylib"; path = "../lib/libkaldi-chain.dylib"; sourceTree = "<group>"; };
+		84E03DA92535485A00479A91 /* libkaldi-gmm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-gmm.dylib"; path = "../lib/libkaldi-gmm.dylib"; sourceTree = "<group>"; };
+		84E03DAA2535485A00479A91 /* libkaldi-cudamatrix.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-cudamatrix.dylib"; path = "../lib/libkaldi-cudamatrix.dylib"; sourceTree = "<group>"; };
+		84E03DAB2535485A00479A91 /* libkaldi-rnnlm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-rnnlm.dylib"; path = "../lib/libkaldi-rnnlm.dylib"; sourceTree = "<group>"; };
+		84E03DDF25354AAC00479A91 /* libkaldi-cudamatrix.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-cudamatrix.dylib"; path = "flutter_kaldi_framework/libkaldi-cudamatrix.dylib"; sourceTree = "<group>"; };
+		84E03DE025354AAC00479A91 /* libkaldi-nnet2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-nnet2.dylib"; path = "flutter_kaldi_framework/libkaldi-nnet2.dylib"; sourceTree = "<group>"; };
+		84E03DE125354AAC00479A91 /* libkaldi-gmm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-gmm.dylib"; path = "flutter_kaldi_framework/libkaldi-gmm.dylib"; sourceTree = "<group>"; };
+		84E03DE225354AAC00479A91 /* libkaldi-nnet3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-nnet3.dylib"; path = "flutter_kaldi_framework/libkaldi-nnet3.dylib"; sourceTree = "<group>"; };
+		84E03DE325354AAC00479A91 /* libkaldi-transform.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-transform.dylib"; path = "flutter_kaldi_framework/libkaldi-transform.dylib"; sourceTree = "<group>"; };
+		84E03DE425354AAC00479A91 /* libkaldi-util.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-util.dylib"; path = "flutter_kaldi_framework/libkaldi-util.dylib"; sourceTree = "<group>"; };
+		84E03DE525354AAC00479A91 /* libkaldi-tree.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-tree.dylib"; path = "flutter_kaldi_framework/libkaldi-tree.dylib"; sourceTree = "<group>"; };
+		84E03DE625354AAC00479A91 /* libkaldi-hmm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-hmm.dylib"; path = "flutter_kaldi_framework/libkaldi-hmm.dylib"; sourceTree = "<group>"; };
+		84E03DE725354AAC00479A91 /* libfst.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfst.dylib; path = flutter_kaldi_framework/libfst.dylib; sourceTree = "<group>"; };
+		84E03DE825354AAC00479A91 /* libkaldi-matrix.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-matrix.dylib"; path = "flutter_kaldi_framework/libkaldi-matrix.dylib"; sourceTree = "<group>"; };
+		84E03DE925354AAC00479A91 /* libkaldi-decoder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-decoder.dylib"; path = "flutter_kaldi_framework/libkaldi-decoder.dylib"; sourceTree = "<group>"; };
+		84E03DEA25354AAC00479A91 /* libasrbridge.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libasrbridge.dylib; path = flutter_kaldi_framework/libasrbridge.dylib; sourceTree = "<group>"; };
+		84E03DEB25354AAC00479A91 /* libkaldi-rnnlm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-rnnlm.dylib"; path = "flutter_kaldi_framework/libkaldi-rnnlm.dylib"; sourceTree = "<group>"; };
+		84E03DEC25354AAC00479A91 /* libkaldi-nnet.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-nnet.dylib"; path = "flutter_kaldi_framework/libkaldi-nnet.dylib"; sourceTree = "<group>"; };
+		84E03DED25354AAC00479A91 /* libkaldi-online2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-online2.dylib"; path = "flutter_kaldi_framework/libkaldi-online2.dylib"; sourceTree = "<group>"; };
+		84E03DEE25354AAC00479A91 /* libkaldi-ivector.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-ivector.dylib"; path = "flutter_kaldi_framework/libkaldi-ivector.dylib"; sourceTree = "<group>"; };
+		84E03DEF25354AAC00479A91 /* libkaldi-fstext.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-fstext.dylib"; path = "flutter_kaldi_framework/libkaldi-fstext.dylib"; sourceTree = "<group>"; };
+		84E03DF025354AAD00479A91 /* libkaldi-sgmm2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-sgmm2.dylib"; path = "flutter_kaldi_framework/libkaldi-sgmm2.dylib"; sourceTree = "<group>"; };
+		84E03DF125354AAD00479A91 /* libkaldi-feat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-feat.dylib"; path = "flutter_kaldi_framework/libkaldi-feat.dylib"; sourceTree = "<group>"; };
+		84E03DF225354AAD00479A91 /* libkaldi-lat.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-lat.dylib"; path = "flutter_kaldi_framework/libkaldi-lat.dylib"; sourceTree = "<group>"; };
+		84E03DF325354AAD00479A91 /* libkaldi-chain.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-chain.dylib"; path = "flutter_kaldi_framework/libkaldi-chain.dylib"; sourceTree = "<group>"; };
+		84E03DF425354AAD00479A91 /* libkaldi-base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-base.dylib"; path = "flutter_kaldi_framework/libkaldi-base.dylib"; sourceTree = "<group>"; };
+		84E03DF525354AAD00479A91 /* libkaldi-kws.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-kws.dylib"; path = "flutter_kaldi_framework/libkaldi-kws.dylib"; sourceTree = "<group>"; };
+		84E03DF625354AAD00479A91 /* libkaldi-lm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libkaldi-lm.dylib"; path = "flutter_kaldi_framework/libkaldi-lm.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E03D72253547FC00479A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E03DF925354AAD00479A91 /* libkaldi-nnet2.dylib in Frameworks */,
+				84E03E1325354AAE00479A91 /* libkaldi-online2.dylib in Frameworks */,
+				84E03DFB25354AAD00479A91 /* libkaldi-gmm.dylib in Frameworks */,
+				84E03E2125354AAE00479A91 /* libkaldi-base.dylib in Frameworks */,
+				84E03E0B25354AAD00479A91 /* libkaldi-decoder.dylib in Frameworks */,
+				84E03E2525354AAE00479A91 /* libkaldi-lm.dylib in Frameworks */,
+				84E03E0325354AAD00479A91 /* libkaldi-tree.dylib in Frameworks */,
+				84E03E1B25354AAE00479A91 /* libkaldi-feat.dylib in Frameworks */,
+				84E03E0725354AAD00479A91 /* libfst.dylib in Frameworks */,
+				84E03DF725354AAD00479A91 /* libkaldi-cudamatrix.dylib in Frameworks */,
+				84E03E0D25354AAE00479A91 /* libasrbridge.dylib in Frameworks */,
+				84E03DFF25354AAD00479A91 /* libkaldi-transform.dylib in Frameworks */,
+				84E03E0125354AAD00479A91 /* libkaldi-util.dylib in Frameworks */,
+				84E03E0F25354AAE00479A91 /* libkaldi-rnnlm.dylib in Frameworks */,
+				84E03DFD25354AAD00479A91 /* libkaldi-nnet3.dylib in Frameworks */,
+				84E03E1125354AAE00479A91 /* libkaldi-nnet.dylib in Frameworks */,
+				84E03E1D25354AAE00479A91 /* libkaldi-lat.dylib in Frameworks */,
+				84E03E1525354AAE00479A91 /* libkaldi-ivector.dylib in Frameworks */,
+				84E03E0525354AAD00479A91 /* libkaldi-hmm.dylib in Frameworks */,
+				84E03E1725354AAE00479A91 /* libkaldi-fstext.dylib in Frameworks */,
+				84E03E2325354AAE00479A91 /* libkaldi-kws.dylib in Frameworks */,
+				84E03E0925354AAD00479A91 /* libkaldi-matrix.dylib in Frameworks */,
+				84E03E1925354AAE00479A91 /* libkaldi-sgmm2.dylib in Frameworks */,
+				84E03E1F25354AAE00479A91 /* libkaldi-chain.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E03D7B253547FC00479A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E03D7F253547FC00479A91 /* flutter_kaldi_framework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E03D6B253547FC00479A91 = {
+			isa = PBXGroup;
+			children = (
+				84E03D77253547FC00479A91 /* flutter_kaldi_framework */,
+				84E03D82253547FC00479A91 /* flutter_kaldi_frameworkTests */,
+				84E03D76253547FC00479A91 /* Products */,
+				84E03D932535485900479A91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E03D76253547FC00479A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E03D75253547FC00479A91 /* flutter_kaldi_framework.framework */,
+				84E03D7E253547FC00479A91 /* flutter_kaldi_frameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E03D77253547FC00479A91 /* flutter_kaldi_framework */ = {
+			isa = PBXGroup;
+			children = (
+				84E03D78253547FC00479A91 /* flutter_kaldi_framework.h */,
+				84E03D79253547FC00479A91 /* Info.plist */,
+			);
+			path = flutter_kaldi_framework;
+			sourceTree = "<group>";
+		};
+		84E03D82253547FC00479A91 /* flutter_kaldi_frameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E03D83253547FC00479A91 /* flutter_kaldi_frameworkTests.swift */,
+				84E03D85253547FC00479A91 /* Info.plist */,
+			);
+			path = flutter_kaldi_frameworkTests;
+			sourceTree = "<group>";
+		};
+		84E03D932535485900479A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84E03DEA25354AAC00479A91 /* libasrbridge.dylib */,
+				84E03DE725354AAC00479A91 /* libfst.dylib */,
+				84E03DF425354AAD00479A91 /* libkaldi-base.dylib */,
+				84E03DF325354AAD00479A91 /* libkaldi-chain.dylib */,
+				84E03DDF25354AAC00479A91 /* libkaldi-cudamatrix.dylib */,
+				84E03DE925354AAC00479A91 /* libkaldi-decoder.dylib */,
+				84E03DF125354AAD00479A91 /* libkaldi-feat.dylib */,
+				84E03DEF25354AAC00479A91 /* libkaldi-fstext.dylib */,
+				84E03DE125354AAC00479A91 /* libkaldi-gmm.dylib */,
+				84E03DE625354AAC00479A91 /* libkaldi-hmm.dylib */,
+				84E03DEE25354AAC00479A91 /* libkaldi-ivector.dylib */,
+				84E03DF525354AAD00479A91 /* libkaldi-kws.dylib */,
+				84E03DF225354AAD00479A91 /* libkaldi-lat.dylib */,
+				84E03DF625354AAD00479A91 /* libkaldi-lm.dylib */,
+				84E03DE825354AAC00479A91 /* libkaldi-matrix.dylib */,
+				84E03DEC25354AAC00479A91 /* libkaldi-nnet.dylib */,
+				84E03DE025354AAC00479A91 /* libkaldi-nnet2.dylib */,
+				84E03DE225354AAC00479A91 /* libkaldi-nnet3.dylib */,
+				84E03DED25354AAC00479A91 /* libkaldi-online2.dylib */,
+				84E03DEB25354AAC00479A91 /* libkaldi-rnnlm.dylib */,
+				84E03DF025354AAD00479A91 /* libkaldi-sgmm2.dylib */,
+				84E03DE325354AAC00479A91 /* libkaldi-transform.dylib */,
+				84E03DE525354AAC00479A91 /* libkaldi-tree.dylib */,
+				84E03DE425354AAC00479A91 /* libkaldi-util.dylib */,
+				84E03D992535485900479A91 /* libasrbridge.dylib */,
+				84E03D962535485900479A91 /* libfst.dylib */,
+				84E03DA42535485A00479A91 /* libkaldi-base.dylib */,
+				84E03DA82535485A00479A91 /* libkaldi-chain.dylib */,
+				84E03DAA2535485A00479A91 /* libkaldi-cudamatrix.dylib */,
+				84E03DA12535485A00479A91 /* libkaldi-decoder.dylib */,
+				84E03D9C2535485A00479A91 /* libkaldi-feat.dylib */,
+				84E03DA22535485A00479A91 /* libkaldi-fstext.dylib */,
+				84E03DA92535485A00479A91 /* libkaldi-gmm.dylib */,
+				84E03D9A2535485900479A91 /* libkaldi-hmm.dylib */,
+				84E03DA32535485A00479A91 /* libkaldi-ivector.dylib */,
+				84E03D952535485900479A91 /* libkaldi-kws.dylib */,
+				84E03DA52535485A00479A91 /* libkaldi-lat.dylib */,
+				84E03D9B2535485A00479A91 /* libkaldi-lm.dylib */,
+				84E03D972535485900479A91 /* libkaldi-matrix.dylib */,
+				84E03D9D2535485A00479A91 /* libkaldi-nnet.dylib */,
+				84E03DA62535485A00479A91 /* libkaldi-nnet2.dylib */,
+				84E03DA72535485A00479A91 /* libkaldi-nnet3.dylib */,
+				84E03D9E2535485A00479A91 /* libkaldi-online2.dylib */,
+				84E03DAB2535485A00479A91 /* libkaldi-rnnlm.dylib */,
+				84E03D9F2535485A00479A91 /* libkaldi-sgmm2.dylib */,
+				84E03D982535485900479A91 /* libkaldi-transform.dylib */,
+				84E03D942535485900479A91 /* libkaldi-tree.dylib */,
+				84E03DA02535485A00479A91 /* libkaldi-util.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84E03D70253547FC00479A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E03D86253547FC00479A91 /* flutter_kaldi_framework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84E03D74253547FC00479A91 /* flutter_kaldi_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E03D89253547FC00479A91 /* Build configuration list for PBXNativeTarget "flutter_kaldi_framework" */;
+			buildPhases = (
+				84E03D70253547FC00479A91 /* Headers */,
+				84E03D71253547FC00479A91 /* Sources */,
+				84E03D72253547FC00479A91 /* Frameworks */,
+				84E03D73253547FC00479A91 /* Resources */,
+				84E03E2725354AAF00479A91 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flutter_kaldi_framework;
+			productName = flutter_kaldi_framework;
+			productReference = 84E03D75253547FC00479A91 /* flutter_kaldi_framework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84E03D7D253547FC00479A91 /* flutter_kaldi_frameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E03D8C253547FC00479A91 /* Build configuration list for PBXNativeTarget "flutter_kaldi_frameworkTests" */;
+			buildPhases = (
+				84E03D7A253547FC00479A91 /* Sources */,
+				84E03D7B253547FC00479A91 /* Frameworks */,
+				84E03D7C253547FC00479A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E03D81253547FC00479A91 /* PBXTargetDependency */,
+			);
+			name = flutter_kaldi_frameworkTests;
+			productName = flutter_kaldi_frameworkTests;
+			productReference = 84E03D7E253547FC00479A91 /* flutter_kaldi_frameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E03D6C253547FC00479A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					84E03D74253547FC00479A91 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					84E03D7D253547FC00479A91 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 84E03D6F253547FC00479A91 /* Build configuration list for PBXProject "flutter_kaldi_framework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E03D6B253547FC00479A91;
+			productRefGroup = 84E03D76253547FC00479A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E03D74253547FC00479A91 /* flutter_kaldi_framework */,
+				84E03D7D253547FC00479A91 /* flutter_kaldi_frameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E03D73253547FC00479A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E03D7C253547FC00479A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E03D71253547FC00479A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E03D7A253547FC00479A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E03D84253547FC00479A91 /* flutter_kaldi_frameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E03D81253547FC00479A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E03D74253547FC00479A91 /* flutter_kaldi_framework */;
+			targetProxy = 84E03D80253547FC00479A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84E03D87253547FC00479A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E03D88253547FC00479A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84E03D8A253547FC00479A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TM2B4SJXNJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = flutter_kaldi_framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/flutter_kaldi_framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.incrediblechinese.flutter-kaldi-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E03D8B253547FC00479A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TM2B4SJXNJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = flutter_kaldi_framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/flutter_kaldi_framework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.incrediblechinese.flutter-kaldi-framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E03D8D253547FC00479A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM2B4SJXNJ;
+				INFOPLIST_FILE = flutter_kaldi_frameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.incrediblechinese.flutter-kaldi-frameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E03D8E253547FC00479A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TM2B4SJXNJ;
+				INFOPLIST_FILE = flutter_kaldi_frameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.incrediblechinese.flutter-kaldi-frameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E03D6F253547FC00479A91 /* Build configuration list for PBXProject "flutter_kaldi_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E03D87253547FC00479A91 /* Debug */,
+				84E03D88253547FC00479A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E03D89253547FC00479A91 /* Build configuration list for PBXNativeTarget "flutter_kaldi_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E03D8A253547FC00479A91 /* Debug */,
+				84E03D8B253547FC00479A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E03D8C253547FC00479A91 /* Build configuration list for PBXNativeTarget "flutter_kaldi_frameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E03D8D253547FC00479A91 /* Debug */,
+				84E03D8E253547FC00479A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E03D6C253547FC00479A91 /* Project object */;
+}
